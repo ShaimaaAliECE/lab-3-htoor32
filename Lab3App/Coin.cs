@@ -27,7 +27,7 @@ namespace Lab3App
         public void UpdateTotalValue(int value)
         {
             Board.TotalValue += value;
-            Console.WriteLine("Total Score is updated to: " + Board.TotalValue);
+            Console.WriteLine("Total Value is updated to: " + Board.TotalValue);
         }
 
 

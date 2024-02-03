@@ -31,7 +31,10 @@ namespace Lab3App
             list.Add(this);
         }
 
-        public void Display() { }
+        public void Display() 
+        {
+            Console.WriteLine(Description + " is displayed");
+        }
 
 
 
